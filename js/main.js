@@ -89,7 +89,7 @@ Screenshots carousel
         },
         600:{
             items:2,
-            margin:60
+            margin:20
         },
         1000:{
             items:4
@@ -120,8 +120,8 @@ Clients carousel
         margin: 30,
       },
       1000: {
-        items: 6,
-        margin: 40,
+        items: 5,
+        margin: 20,
       }
     }
   })
