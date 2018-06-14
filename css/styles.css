@@ -2784,6 +2784,8 @@ footer h3{
 
 #howItWorks .team-member p{margin:.5em 0 1.5em 0; line-height:1.2em; font-weight:300;}
 
+#howItWorks .row {margin-right: 0;}
+
 @media screen and (max-width:1199px)
 {
 #howItWorks .hideOnMobile {display:none;}
