@@ -2921,6 +2921,28 @@ background: linear-gradient(to bottom, rgba(29,165,222,0.7) 0%,rgba(29,165,222,0
 #blogPost #footer a:hover{color:#1DA5DE;}
 #blogPost #footer a:active{color:#1DA5DE}
 
+#blogPost .navbar-header {
+  float: left;
+}
+#blogPost .navbar-toggle {
+  display: none;
+}
+.blogPost--nav {
+  display: block;
+  border: 0;
+  box-shadow: none;
+  float: right;
+}
+.blogPost--nav li {
+  display: inline-block;
+  margin-top: 23px!important;
+  margin-right: 16px!important;
+}
+@media screen and (min-width:768px){
+  .blogPost--nav.blogPost--nav li a {
+    color: white;
+  }
+}
 /* ******* PhoneNumber ******* */
 #contact {padding-bottom:0;}
 
