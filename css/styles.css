@@ -2810,8 +2810,8 @@ footer h3{
 .team-box-name h4 {font-weight:700; font-size:1em}
 .team-box-name h6 {font-size:.6em}
 
-.team-member-content {top:60%; white-space: pre-wrap; width:100%; padding:10%;}
-.team-member-content p {display:inline-block; width:100%; height:100%; font-size:.6em;}
+.team-member-content {top:65%; white-space: pre-wrap; width:80%;}
+.team-member-content p {display:inline-block; width:100%; height:100%; font-size:.6em; line-height:1.25em;}
 
 
 
@@ -2905,7 +2905,14 @@ background: linear-gradient(to bottom, rgba(29,165,222,0.7) 0%,rgba(29,165,222,0
 
 #blogPost .latest-posts-text a {margin-bottom:0; line-height:1.2em;}
 
+#blogPost .latest-posts-text a:hover {color:#1DA5DE;}
+#blogPost .latest-posts-text a:active {color:#1DA5DE;}
+
 #blogPost .latest-posts-text span {text-transform:uppercase; font-size:.7em; color:#000; background:none; font-weight:700; -webkit-text-fill-color:#000;}
+
+#blogPost .latest-posts-img img{width:90px; height:70px;}
+
+
 
 #blogPost #footer p {color:#aaa;}
 #blogPost #footer a{color:#1DA5DE}
